@@ -1,7 +1,6 @@
 library share_sound_recorder;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_sound/flutter_sound.dart' as sound;
+
+part 'src/audio_player.dart';
